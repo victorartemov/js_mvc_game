@@ -97,6 +97,7 @@
 
 
   function update() {
+      console.log('running...');
       ball.setBallX(ball.getBallX() + ball.getXVelocity());
       ball.setBallY(ball.getBallY() + ball.getYVelocity());
 
